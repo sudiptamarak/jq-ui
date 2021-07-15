@@ -1,0 +1,188 @@
+/* Font Page Start*/
+.buttons   {
+    background: #a80077; 
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  
+    background: linear-gradient(to right, #66ff00, #a80077);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-btn{
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s;
+}
+.common-btn:hover{
+    margin-top: -20px;
+    color: rgb(112, 228, 18);
+    -webkit-box-shadow: 0px 10px 13px -10px rgba(28,230,159,1);
+    -moz-box-shadow: 0px 10px 13px -10px rgba(28,230,159,1);
+    box-shadow: 0px 10px 13px -10px rgba(28,230,159,1);
+}
+/* Font Page Start*/
+
+
+.h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Droppable Trash Start */
+#gallery { float: left; width: 65%; min-height: 12em; }
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 20%; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; margin-top: 5px;}
+.gallery li a.ui-icon-trash,
+a.ui-icon-refresh{
+    margin-top: 5px;
+}
+.gallery li img { width: 100%; cursor: move; }
+
+#trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none; }
+
+/* Droppable Trash End */
+
+/* Draggable Start */
+#draggable, #draggable2, #draggable3 { 
+    margin: 0 20px; width: 20%; padding: 0.5em; float: left;}
+
+.ui-widget-content img{
+    width: 100%;
+}
+/* Draggable End */
+
+/* Draggable Start */
+#resizable { margin: auto; width: 50%; height: 300px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+.ui-resizable-helper { border: 1px dotted gray; }
+/* Draggable End */
+
+/* Selectable Start */
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: auto; padding: 0; width: 30%; }
+#selectable li { margin: 20px 0; padding: 10px; font-size: 1.4em;  }
+/* Selectable End */
+
+/* Shortable Start */
+#sortable { 
+    list-style-type: none; 
+    padding: 0;
+}
+#sortable li { 
+    padding: 1px; 
+    float: left; 
+    width: calc(100% / 5); 
+    text-align: center; 
+    background-color: transparent;
+    border: none;
+}
+
+#sortable li img{
+    width: 100%;
+}
+/* Shortable End */
+
+/* Dialog Start */
+    input.text { margin-bottom:12px; width:30%; padding: .4em; }
+    fieldset { padding:0; border:0; margin-top:25px; }
+    h1 { font-size: 1.2em; margin: .6em 0; }
+    div#users-contain { width: 350px; margin: 20px 0; }
+    div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+    div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+    .ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }
+/* Dialog End */
+
+/* Tooltip Start */
+label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+/* Tooltip End */
+
+/* Colorpicker Start */
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; }
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; }
+/* Colorpicker End */
+
+/* Selectmenu Start */
+.fieldset-box {
+    border: 0;
+    margin-left: 300px;
+  }
+label {
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+#circle {
+    float: left;
+    background: yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* Selectmenu End */
+
+/* Progressbar Start */
+#progressbar {
+    margin-top: 20px;
+}
+
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+/* Progressbar End */
+
+
+.ui-menu { width: 150px; }
+
+.toggler { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sudipta Mrong"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Second Page</title>
+	<!-- Font Awesome Css -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Jquery UI Js -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+	<!-- Custom Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Custom Media Css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Accordion Start -->
+		<div class="">
+			<h1 class="h1">1. Accordion</h1>
+			<div id="accordion">
+				<div class="group">
+					<h3>Section 1</h3>
+					<div>
+						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3>Section 2</h3>
+					<div>
+						<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+					</div>
+				</div>
+				<div class="group">
+				  <h3>Section 3</h3>
+					<div>
+						<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+						<ul>
+						<li>List item one</li>
+						<li>List item two</li>
+						<li>List item three</li>
+						</ul>
+					</div>
+				</div>
+				<div class="group">
+					<h3>Section 4</h3>
+					<div>
+						<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Accordion End -->
+	</div>
+
+		<!-- Autocomplete Start -->
+		<div class="container mt-4">
+			<h1 class="h1">2. Autocomplete</h1>
+			<div class="ui-widget">
+				<label for="tags">Cars: </label>
+				<input id="tags">
+			</div>
+		</div>
+		<!-- Autocomplete End -->
+
+		<!-- Checkboxradio Start -->
+		<div class="container mt-4">
+			<div class="widget">
+				<h1 class="h1">3. Checkboxradio</h1>
+	
+				<h2>Radio Group</h2>
+				<fieldset>
+				<legend>Select a Location: </legend>
+				<label for="radio-1">New York</label>
+				<input type="radio" name="radio-1" id="radio-1">
+				<label for="radio-2">Paris</label>
+				<input type="radio" name="radio-1" id="radio-2">
+				<label for="radio-3">London</label>
+				<input type="radio" name="radio-1" id="radio-3">
+				</fieldset>
+			
+				<h2 class="mt-4">Checkbox</h2>
+				<fieldset>
+				<legend>Hotel Ratings: </legend>
+				<label for="checkbox-1">2 Star</label>
+				<input type="checkbox" name="checkbox-1" id="checkbox-1">
+				<label for="checkbox-2">3 Star</label>
+				<input type="checkbox" name="checkbox-2" id="checkbox-2">
+				<label for="checkbox-3">4 Star</label>
+				<input type="checkbox" name="checkbox-3" id="checkbox-3">
+				<label for="checkbox-4">5 Star</label>
+				<input type="checkbox" name="checkbox-4" id="checkbox-4">
+				</fieldset>
+			
+				<h2 class="mt-4">Checkbox nested in label</h2>
+				<fieldset>
+				<legend>Bed Type: </legend>
+				<label for="checkbox-nested-1">2 Double
+					<input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+				</label>
+				<label for="checkbox-nested-2">2 Queen
+					<input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+				</label>
+				<label for="checkbox-nested-3">1 Queen
+					<input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+				</label>
+				<label for="checkbox-nested-4">1 King
+					<input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+				</label>
+				</fieldset>
+			</div>
+		</div>
+		<!-- Checkboxradio End -->
+
+		<!-- Datepicker End -->
+		<div class="container mt-4">
+			<div class="toggler">
+				<div id="effect" class="ui-widget-content ui-corner-all">
+				  <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+				  <p>
+					Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+				  </p>
+				</div>
+			</div>
+			   
+			<button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+		</div>
+		<!-- Datepicker End -->
+
+
+		<!-- Tooltip Start -->
+		<div class="container">
+			<h1 class="h1">5. Tooltip</h1>
+			<form>
+				<fieldset>
+				<div>
+					<label for="firstname">Firstname</label>
+					<input id="firstname" name="firstname" title="Please provide your firstname.">
+				</div>
+				<div>
+					<label for="lastname">Lastname</label>
+					<input id="lastname" name="lastname" title="Please provide also your lastname.">
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<input id="address" name="address" title="Your home or work address.">
+				</div>
+				</fieldset>
+			</form>
+		</div>
+		<!-- Tooltip End -->
+		
+		
+	
+
+	
+
+
+
+	
+
+
+
+
+	
+	<!-- Bootsrtap Js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper Js -->
+	<script src="js/popper.min.js"></script>
+	<!-- Jquery Js -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- Jquery UI Js -->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!-- Custom Script Js -->
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
